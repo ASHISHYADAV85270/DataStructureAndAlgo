@@ -1,0 +1,11 @@
+int maxDepth_recursion(node *root)
+{
+    if (root == NULL)
+    {
+        return 0;
+    }
+    int lh = maxDepth_recursion(root->left);
+    int rh = maxDepth_recursion(root->right);
+    return 1 + max(lh, rh);
+}
+
