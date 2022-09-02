@@ -1,0 +1,2 @@
+sort(arr,aar+n); // O(n(log(n)))
+uper_bond(arr,arr+n);// O(log(n))
